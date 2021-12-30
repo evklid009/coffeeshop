@@ -889,7 +889,6 @@ margin-bottom: 15px;
 .promotion .bgc_y {
     position: absolute;
     width: 50%;
-    height: 499px;
     background: rgba(243, 255, 222, .35);
     z-index: -1;
     top: -50px;
