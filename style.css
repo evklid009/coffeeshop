@@ -1,0 +1,1142 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
+}
+li {
+    list-style: none; 
+}
+
+img {
+    max-width: 100%;
+}
+.header {
+    background-image: url(src/img/Main\ bg.jpg);
+    width:1440px;
+    height:640px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.logo-img {
+    padding-top: 30px;
+    padding-left: 150px;
+}
+.header-button {
+    display: block;
+    box-sizing: border-box;
+    cursor:pointer;
+    margin: 0 auto;
+    padding: 2px;
+    background: url(desk-791178_1920.jpg);
+    border-radius: 3px;
+    border: 1px solid #FFFFFF;
+    color: #fff;
+    font-family: Merienda;
+    font-style: normal;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+}
+.header-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+.heading {
+    margin-right: auto;
+    margin-left: auto;
+}
+.header-menu {
+    position: relative;
+    overflow: hidden;
+    height: 70px;
+    width: 655px;
+    padding-top: 30px;
+    
+}
+.header-menu ul {
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+    height: 40px
+}
+.header-menu ul li {
+    position: relative;
+    left: -50%;
+    float: left;
+    margin: 0 10px;
+    height: 40px;
+    font-size: 15px;
+    
+}
+.header-menu ul li a {
+    color: rgb(255, 255, 255);
+    display: block;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 40px;
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 17px;
+}
+.bones {
+    padding-left: -10px;
+}
+
+.logo-img-header {
+    margin-top: -20px;
+    margin-left: -655px;
+
+}
+
+.header-second-heading {
+    padding-top: 110px ;
+    color:aliceblue;
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 58px;
+    text-align: center;
+}
+
+.header-third-heading {
+    margin-top: 34px;
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.header-fourth-heading {
+    margin-top: 20px;
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.img-header {
+    display: block;
+    box-sizing: border-box;
+    cursor:pointer;
+    margin: 0 auto;
+}
+
+.lines {
+    /* Чтобы спрятать часть линий, которые 
+    ** будут вылазить за пределы блока */
+    overflow: hidden;
+    /* Выравнивание заголовка по центру, 
+    ** можно использовать left, right */
+    text-align: center;
+    /* Тут можно добавить другие стили для заголовка */
+    font-size: 30px;
+}
+.lines span {
+    /* Стили тега обертки для заголовков 
+    ** в несколько строк */
+    display: inline-block;
+    vertical-align: middle;
+}
+.lines:before,
+.lines:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    /* Задаем ширину 100% и выбираем высоту линии, 
+    ** в нашем примере она равна 4 пикселям */
+    width: 60px;
+    height: 1px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+.lines:before {
+    margin-left: -100%;
+    left: -14px;
+}
+.lines:after {
+    margin-right: -100%;
+    right: -14px;
+}
+
+/* hero */
+
+.hero {
+    width:1440px;
+    height:520px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero-heading {
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    padding-top: 80px;
+    color: #000000;
+}
+
+.hero-img {
+    margin-top: 20px;
+
+}
+
+.hero-lines {
+    /* Чтобы спрятать часть линий, которые 
+    ** будут вылазить за пределы блока */
+    overflow: hidden;
+    /* Выравнивание заголовка по центру, 
+    ** можно использовать left, right */
+    text-align: center;
+    /* Тут можно добавить другие стили для заголовка */
+    font-size: 30px;
+}
+.hero-lines span {
+    /* Стили тега обертки для заголовков 
+    ** в несколько строк */
+    display: inline-block;
+    vertical-align: middle;
+}
+.hero-lines:before,
+.hero-lines:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    /* Задаем ширину 100% и выбираем высоту линии, 
+    ** в нашем примере она равна 4 пикселям */
+    width: 60px;
+    height: 1px;
+    background-color: #000000;
+    position: relative;
+}
+.hero-lines:before {
+    margin-left: -100%;
+    left: -14px;
+}
+.hero-lines:after {
+    margin-right: -100%;
+    right: -14px;
+}
+
+.p-container {
+    margin-top: 40px;
+    width: 590px;
+    height: 223px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.hero-p {
+    text-align: center;
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+/* our */
+.our-heading {
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    padding-top: 40px;
+}
+.our {
+    width: 1440px;
+    height: 495px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(src/img/paper-1074131_1920.png);
+
+}
+
+.section-shell {
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 110px;
+}
+
+
+
+.section-our-inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 240px;
+    background:rgba(247, 248, 248, 1);  
+    border-radius:10px;
+    cursor:pointer;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    border: 5px solid rgb(252, 252, 252);
+
+}
+
+.class-b {
+    border: 5px solid rgb(248, 4, 4);
+}
+
+.class-k {
+    border: 5px solid rgb(29, 4, 250);
+}
+.class-c {
+    border: 5px solid rgb(44, 255, 2);
+}
+
+
+.section-do-item-description {
+    padding-left: 140px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: Merienda;
+    font-style: normal;
+}
+.section-do-item-heading {
+    font-weight: bold;
+    font-family: Merienda;
+    font-style: normal;
+    padding-top: 10px;
+}
+.section-do-img {
+    margin-top: 15px;
+}
+
+
+/* bones */
+
+
+.bones {
+   width: 1440px;
+   height: 150px;
+   margin-right: auto;
+   margin-left: auto;
+}
+.bones-container {
+    align-items: center;
+}
+
+.bones-menu {
+    position: relative;
+    overflow: hidden;
+    height: 47px;
+    margin: 30px 0
+}
+.bones-menu ul {
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+    height: 40px
+}
+.bones-menu ul li {
+    position: relative;
+    left: -50%;
+    float: left;
+    margin: 0 10px;
+    height: 40px;
+    font-size: 15px;
+    
+}
+.bones-menu ul li a {
+    color: rgb(0, 0, 0);
+    display: block;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 40px;
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 17px;
+}
+
+
+.logo-img-bones {
+    margin-top: -20px;
+    margin-left: -653px;
+
+}
+
+/* second-part */
+
+.second-part {
+    background-image: url(src/img/coffee-shop-1209863_1920.png);
+    width:1440px;
+    height:260px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.second-part-header {
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 58px;    
+    color: #FFFFFF;
+    padding-top: 80px;
+    text-align: center;
+}
+
+/* about */
+
+.about {
+    width: 1440px;
+    height: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 500px;
+
+}
+.about-high {
+    padding-top: 70px;
+}
+
+.our-lines {
+    /* Чтобы спрятать часть линий, которые 
+    ** будут вылазить за пределы блока */
+    overflow: hidden;
+    /* Выравнивание заголовка по центру, 
+    ** можно использовать left, right */
+    text-align: center;
+    /* Тут можно добавить другие стили для заголовка */
+    font-size: 30px;
+}
+.our-lines span {
+    /* Стили тега обертки для заголовков 
+    ** в несколько строк */
+    display: inline-block;
+    vertical-align: middle;
+}
+.our-lines:before,
+.our-lines:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    /* Задаем ширину 100% и выбираем высоту линии, 
+    ** в нашем примере она равна 4 пикселям */
+    width: 60px;
+    height: 1px;
+    background-color: #000000;
+    position: relative;
+}
+.our-lines:before {
+    margin-left: -100%;
+    left: -14px;
+}
+.our-lines:after {
+    margin-right: -100%;
+    right: -14px;
+}
+
+.high-heading {
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 35px;
+    color: #000000;
+    text-align: center;
+}
+
+.high-descr {
+    padding-top: 25px;
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    color: #000000;
+    text-align: center;
+    padding-right: 50px;
+}
+.about-img {
+    padding-left: 150px;
+    padding-top: 40px;
+    width:500px ;
+    height:450px ;
+}
+
+.about-lines {
+    /* Чтобы спрятать часть линий, которые 
+    ** будут вылазить за пределы блока */
+    overflow: hidden;
+    /* Выравнивание заголовка по центру, 
+    ** можно использовать left, right */
+    text-align: center;
+    /* Тут можно добавить другие стили для заголовка */
+    font-size: 30px;
+}
+.about-lines:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    /* Задаем ширину 100% и выбираем высоту линии, 
+    ** в нашем примере она равна 4 пикселям */
+    width: 240px;
+    height: 1px;
+    background-color: #000000;
+    position: relative;
+}
+.about-menu-middle {
+    text-align: center;
+}
+.about-menu {
+    position: relative;
+    overflow: hidden;
+    height: 60px;
+
+}
+.about-menu ul {
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+    position: relative;
+    left: 25%;
+    float: left;
+    height: 40px
+}
+.about-menu ul li {
+    position: relative;
+    float: left;
+    margin: 0 10px;
+    height: 40px;
+    font-size: 15px;
+    
+}
+.about-menu ul li a {
+    color: rgb(0, 0, 0);
+    display: block;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 50px;
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 17px;
+    left: 20%;
+}
+
+.about-btn {
+    width: 90px;
+    height: 30px;
+    background-color:#fff;
+    font-family: Merienda;
+    font-style: normal;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+.about-input {
+    width: 180px;
+    height: 30px;
+    border-radius: 1px;
+    outline: 0;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    margin-bottom: 50px;
+
+
+}
+
+.about-input:focus {
+outline: 0;
+outline-offset: 0;
+}
+::placeholder {
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    text-align: center;
+    background-color: none;
+    padding-bottom: 8px;
+}
+
+/* small */
+
+.small {
+    background-image: url(src/img/coffee-shop-1209863_1920.png);
+    width:1440px;
+    height:260px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* about it */
+
+.about-it {
+    width: 1440px;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px ;
+
+}
+
+.about-it-container {
+    padding-top: 80px;
+
+}
+
+.about-it-heading {
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.about-it-price {
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 20px;
+    color: #000000;
+}
+.about-it-descr {
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+/* for-your-pleasure */
+
+.for-your-pleasure {
+    background-image: url(src/img/coffee-shop-1209863_1920.png);
+    width:1440px;
+    height:260px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* last */
+
+.last {
+    width:1440px;
+    height:1050px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 300px; 
+}
+
+/* slider */
+
+.slider {
+	height: 700px;
+	
+    padding-top: 50px;
+}
+.slider ul {
+	margin: 0;
+	padding: 0;
+}
+.slider ul li img {
+	width: 100%;
+	height: auto;
+}
+.slider .bx-wrapper{
+	position: relative;
+	margin: 0 auto;
+}
+.bx-viewport {
+	z-index: 1;
+}
+.slider .bx-controls{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+/* Кнопки управления */
+.slider .bx-controls-direction {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.slider .bx-controls-direction a:hover {
+	filter: brightness(90%);
+}
+.slider .bx-prev {
+	background: url(https://snipp.ru/demo/193/prev.png) 0 0 no-repeat; 
+	display: inline-block; 
+	width: 30px;
+	height: 30px;	
+	position: absolute;
+	margin-top: -15px;	
+	top: 50%;
+	left: -50px;
+	overflow: hidden;
+	text-indent: 999px; 
+	z-index: 1000;
+}
+.slider .bx-next {
+	background: url(https://snipp.ru/demo/193/next.png) 0 0 no-repeat;    
+	display: inline-block; 
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	margin-top: -15px;	
+	top: 50%;
+	right: -50px;
+	overflow: hidden;
+	text-indent: 999px;
+	z-index: 1000;
+}
+
+.content {
+    width: 260px;
+    height: 250px;
+    background:rgb(255, 255, 255);  
+    border-radius:10px;
+    cursor:pointer;
+}
+.inside-content {
+    width: 200px;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.content-descr {
+    font-family: Merienda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
+
+/* button to top */
+
+#toTop {
+    width:100px;
+    text-align:center;
+    padding:5px;
+    position:fixed;
+    bottom:20px;
+    right:10px;
+    cursor:pointer;
+    display:none;
+}
+
+
+/* popup  */
+
+.popup-img-one {
+width: 300px;
+height: 100px;
+margin-left: 50px;
+margin-bottom: 15px;
+
+}
+
+.popup-img-second {
+    width: 200px;
+    height: 200px;
+    margin-left: 140px;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 999;
+    -webkit-animation: fade .6s;
+    -moz-animation: fade .6s;
+    animation: fade .6s;
+    overflow: auto;
+}
+.popup {
+    top: 25%;
+    left: 0;
+    right: 0;       
+    font-size: 14px;
+    margin: auto;
+    width: 90%;
+    min-width: 320px;
+    max-width: 500px;
+    position: absolute;
+    padding: 15px 20px;
+    background: #ffffff;
+    z-index: 1000;
+    border-radius: 20px;
+    font: 14px/18px 'Merienda', Arial, sans-serif;
+    animation: fade .6s;
+}
+.popup-heading,
+.popup-descr {
+    text-align: center;
+    font-family: Merienda;
+    font-size: 26px;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+.close {
+    top: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    border: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    background-color: rgba(2, 2, 2, 0.9);
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    outline: none;
+ 
+}
+.close:before {
+    color: rgba(255, 255, 255, 0.9);
+    content: "X";
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.close:hover {
+    background-color: rgb(139, 69, 19);
+}
+
+/* promotion */
+
+.timer-beans {
+    width:1440px;
+    height:400px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(src/img/paper-1074131_1920.png);
+}
+
+.title {
+    font-size: 36px;
+    font-family: Merienda;
+    font-weight: bold;
+}
+
+.promotion {
+    padding: 70px 0 240px 0;
+    position: relative;
+}
+  
+.promotion .container {
+    display: flex;
+}
+  
+.promotion .bgc_y {
+    position: absolute;
+    width: 50%;
+    height: 499px;
+    background: rgba(243, 255, 222, .35);
+    z-index: -1;
+    top: -50px;
+    left: 0;
+}
+  
+.promotion__text {
+    width: 50%
+}
+  
+.promotion__descr {
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    font-family: Merienda;
+}
+  
+.promotion__descr span {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: Merienda;
+}
+  
+.promotion__timer {
+    width: 50%;
+}
+  
+.promotion__timer .title {
+    text-align: right;
+}
+  
+.promotion__timer .timer {
+    margin-top: 60px;
+    padding-left: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.promotion__timer .timer__block {
+    width: 102px;
+    height: 120px;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .25);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 50px;
+    font-family: Merienda;
+    text-align: center;
+}
+  
+.promotion__timer .timer__block span {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 56px;
+    font-weight: 700;
+    font-family: Merienda;
+}
+
+/* order */
+
+.order {
+    width:1440px;
+    height:300px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(src/img/paper-1074131_1920.png);
+}
+  
+.order .title {
+    text-align: center;
+    padding-top: 40px;
+}
+  
+.order__form {
+    margin-top: 70px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.order__form img {
+    transform: scale(1.5);
+}
+  
+.order__input {
+    width: 280px;
+    height: 50px;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border: none;
+    font-size: 18px;
+    text-align: center;
+    padding: 0 20px;
+    outline: 0;
+    padding-bottom: 20px;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+.btn {
+    width: 220px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-family: Merienda;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: 0;
+}
+
+.btn_dark {
+    background-color: rgba(163, 114, 58, 0.521);
+    color: #fff;
+    border: 5px solid rgba(110, 77, 38, 0.521);
+}
+  
+.btn_min {
+    height: 50px;
+}
+
+/* calculating */
+
+.calculating {
+    padding: 50px 0;
+    width:1440px;
+    height:800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+  
+.calculating .title {
+    text-align: center;
+}
+  
+.calculating__field {
+    width: 100%;
+    margin-top: 30px;
+    background: rgba(216, 200, 53, 0.15);
+    padding: 30px 0 40px 0;
+    border-radius: 20px;
+    border: 5px solid rgba(163, 114, 58, 0.521);
+}
+  
+.calculating__subtitle {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+    font-family: Merienda;
+}
+.calculating__joke {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 30px;
+    font-family: Merienda;
+}
+  
+.calculating__subtitle:first-child {
+    margin-top: 0;
+}
+  
+.calculating #gender:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(src/img/switch.svg) center center/cover no-repeat;
+}
+  
+.calculating__choose {
+    position: relative;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+  
+.calculating__choose-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 50px;
+    padding: 0 10px;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    border: none;
+    text-align: center;
+    font-size: 14px;
+    font-family: Merienda;
+    cursor: pointer;
+    outline: 0;
+    transition: .3s all;
+}
+  
+.calculating__choose-item_active {
+    color: #fff;
+    background-color: #8b4513;
+}
+  
+.calculating__choose_medium {
+    width: 743px;
+    justify-content: space-between;
+    margin: 30px auto 0 auto;
+}
+  
+.calculating__choose_big {
+    width: 930px;
+    justify-content: space-between;
+    margin: 30px auto 0 auto;
+}
+  
+.calculating__choose_big .calculating__choose-item {
+    width: 200px;
+}
+  
+.calculating__divider {
+    width: 490px;
+    height: 1px;
+    margin: 40px auto;
+    background-color: rgba(0, 0, 0, .2);
+}
+  
+.calculating__total {
+    width: 490px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.calculating__result {
+    font-size: 18px;
+    font-weight: 700;
+}
+  
+.calculating__result span {
+    font-size: 42px;
+    font-family: Merienda;
+}
