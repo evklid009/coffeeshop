@@ -148,18 +148,11 @@ img {
 }
 
 .lines {
-    /* Чтобы спрятать часть линий, которые 
-    ** будут вылазить за пределы блока */
     overflow: hidden;
-    /* Выравнивание заголовка по центру, 
-    ** можно использовать left, right */
     text-align: center;
-    /* Тут можно добавить другие стили для заголовка */
     font-size: 30px;
 }
 .lines span {
-    /* Стили тега обертки для заголовков 
-    ** в несколько строк */
     display: inline-block;
     vertical-align: middle;
 }
@@ -168,8 +161,6 @@ img {
     content: "";
     display: inline-block;
     vertical-align: middle;
-    /* Задаем ширину 100% и выбираем высоту линии, 
-    ** в нашем примере она равна 4 пикселям */
     width: 60px;
     height: 1px;
     background-color: #FFFFFF;
@@ -210,18 +201,11 @@ img {
 }
 
 .hero-lines {
-    /* Чтобы спрятать часть линий, которые 
-    ** будут вылазить за пределы блока */
     overflow: hidden;
-    /* Выравнивание заголовка по центру, 
-    ** можно использовать left, right */
     text-align: center;
-    /* Тут можно добавить другие стили для заголовка */
     font-size: 30px;
 }
 .hero-lines span {
-    /* Стили тега обертки для заголовков 
-    ** в несколько строк */
     display: inline-block;
     vertical-align: middle;
 }
@@ -230,8 +214,6 @@ img {
     content: "";
     display: inline-block;
     vertical-align: middle;
-    /* Задаем ширину 100% и выбираем высоту линии, 
-    ** в нашем примере она равна 4 пикселям */
     width: 60px;
     height: 1px;
     background-color: #000000;
@@ -430,18 +412,11 @@ img {
 }
 
 .our-lines {
-    /* Чтобы спрятать часть линий, которые 
-    ** будут вылазить за пределы блока */
     overflow: hidden;
-    /* Выравнивание заголовка по центру, 
-    ** можно использовать left, right */
     text-align: center;
-    /* Тут можно добавить другие стили для заголовка */
     font-size: 30px;
 }
 .our-lines span {
-    /* Стили тега обертки для заголовков 
-    ** в несколько строк */
     display: inline-block;
     vertical-align: middle;
 }
@@ -450,8 +425,6 @@ img {
     content: "";
     display: inline-block;
     vertical-align: middle;
-    /* Задаем ширину 100% и выбираем высоту линии, 
-    ** в нашем примере она равна 4 пикселям */
     width: 60px;
     height: 1px;
     background-color: #000000;
@@ -495,21 +468,14 @@ img {
 }
 
 .about-lines {
-    /* Чтобы спрятать часть линий, которые 
-    ** будут вылазить за пределы блока */
     overflow: hidden;
-    /* Выравнивание заголовка по центру, 
-    ** можно использовать left, right */
     text-align: center;
-    /* Тут можно добавить другие стили для заголовка */
     font-size: 30px;
 }
 .about-lines:before {
     content: "";
     display: inline-block;
     vertical-align: middle;
-    /* Задаем ширину 100% и выбираем высоту линии, 
-    ** в нашем примере она равна 4 пикселям */
     width: 240px;
     height: 1px;
     background-color: #000000;
