@@ -72,7 +72,7 @@ setTimeout("document.getElementById('overlay').style.display='block'", delay_pop
 
 window.addEventListener('DOMContentLoaded', () => {
 
-    timer('.timer', '2022-03-15');
+    timer('.timer', '2023-11-15');
 	calculator();
 
 	function timer(id, deadline) {
